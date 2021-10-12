@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaspar Flores | Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="globalStyles.css">
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="home.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font awe -->
+    <link rel="stylesheet" href="/fontAwesome/css/all.min.css">
+</head>
+<body>
+    <!-- Nav Sec -->
+    <div class="nav">
+        <div class="container" data-aos="fade-right">
+            <div class="nav__wrapper">
+                <a href="index.html" class="logo">
+                    <img src="/imgs/LOGO.png" alt="GF logo" class="pLogo">
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            >
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>  
+                    </div>
+                    <div class="nav__bgOverlay"></div>
+                    <ul class="nav__list">
+                        <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                >
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="#projects" class="nav__link">Projects</a></li>
+                            <li><a href="#contact" class="nav__link">Contact</a></li>
+                            <li><a href="https://drive.google.com/file/d/1fleyVcZAcKVRP51BqKxqsotrEouGFVeD/view?usp=sharing" class="nav__link" target="_blank">Resume</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Sec -->   
+
+    <!-- Hero Sec -->
+    <section id="hero">
+        <div class="container">
+            <div class="bkImage">
+                <div class="hero__wrapper">
+                    <div class="hero__left" data-aos="fade-left">
+                        <div class="hero__left__wrapper">
+                            <h1 class="hero__heading">Gaspar Flores</h1>
+                            <p class="hero__info">Junior Front-End Web Developer</p>
+                            <div class="button__wrapper">
+                                <a href="#/" class="btn primary-btn1" id="open">About Me</a>
+                            </div>
+                            <!-- Modal Sec -->
+                            <div class="modal__container" id="modal__container">
+                                <div class="modal">
+                                    <h1 class="modal__title">About me</h1>
+                                    <p class="modal__desc">My name is Gaspar Flores and I am an aspiring Front-End Engineer based in North Carolina. I describe myself as a passionate developer who loves to code great-looking websites and learning how to make fun engaging web pages! Aside from my new passion for coding, I love to draw art in my spare time, I also love when I can work together with a great group on a fun project.  In my free time, you can find me building gunpla, at the gym, or going to new locations in my state.</p>
+                                    <button id="close">CLOSE</button>
+                                </div>
+                            </div>
+                            <!-- End Modal Sec -->
+                        </div>
+                    </div>
+                    <div class="hero__right" data-aos="fade-right">
+                        <div class="hero__imgWrapper">
+                            <img src="/imgs/img1.png" alt="Computer Monitor" class="img1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Sec -->
+    
+    <!-- Social Line Sec -->
+    <div class="social-menu" data-aos="fade-right">
+        <ul>
+            <li class="hovertext" data-hover="GitHub"><a href="https://github.com/GasperF" target="_blank"><i class="fab fa-github" id="faMid"></i></a></li>
+            <li class="hovertext" data-hover="Linkedin"><a href="https://www.linkedin.com/in/gasparflores/" target="_blank"><i class="fab fa-linkedin-in" id="faMid"></i></a></li>
+            <li class="hovertext" data-hover="Instagram"><a href="https://www.instagram.com/theartofgaf/" target="_blank"><i class="fab fa-instagram" id="faMid"></i></a></li>
+            <li class="hovertext" data-hover="Twitter"><a href="https://twitter.com/flores_gasper" target="_blank"><i class="fab fa-twitter" id="faMid"></i></a></li>
+        </ul>
+    </div>
+    <!-- End Social Line Sec -->
+
+    <!-- My Projects -->
+    <section id="projects">
+        <div class="container">
+          <h2 class="section-heading">My Projects!</h2>
+          <div class="all-items" data-aos="fade-left">
+            <div class="item">
+              <div class="left">
+                <div class="img">
+                  <img src="/imgs/project samples/PD LP1/PD LP 3.png" alt="HP Shiny Smiles Dentistry Image">
+                </div>
+              </div>
+              <div class="right">
+                <h2 class="project-title">HP Shiny Smiles Dentistry</h2>
+                <h3 class="project-sub-title">This is my first ever Website!</h3>
+                <p class="project-desc">Within a month and two weeks of learning how to code I decided to create my first ever landing page to test everything I have learned! It's not as responsive as I would like it to be, but this project was all about learning and practice. I will only create better and more responsive projects/pages after this one.</p>
+                <div class="buttons">
+                    <a href="https://lp-1-fa1db.web.app/" class="primary-btn outline external-link" target="_blank">
+                        <span class="preview">View Project<i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                    <a href="https://github.com/GasperF/child-dentistry" class="primary-btn outline external-link" target="_blank">
+                        <span class="preview">Source Code<i class="fab fa-github-alt"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <div class="img">
+                  <img src="/imgs/project samples/SG/SG S3.png" alt="Squid Game Placement Form Image">
+                </div>
+              </div>
+              <div class="right">
+                <h2 class="project-title">Squid Game Placement Form</h2>
+                <h3 class="project-sub-title">Practice Form</h3>
+                <p class="project-desc">After watching the hit Netflix series "Squid Game" I decided to create a form submission page that will assign its applicant a random placement between one and four hundred fifty-six! A fun small side project to help me learn.</p>
+                <div class="buttons">
+                    <a href="https://sq-fg-719a4.web.app/" class="primary-btn outline external-link" target="_blank">
+                        <span class="preview">View Project<i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                    <a href="https://github.com/GasperF/Squid-Game-Mini-Project" class="primary-btn outline external-link" target="_blank">
+                        <span class="preview">Source Code<i class="fab fa-github-alt"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="left">
+                <div class="img">
+                  <img src="/imgs/project samples/placeholder.png" alt="Project Coming Soon Image">
+                </div>
+              </div>
+              <div class="right">
+                <h2 class="project-title">Project Coming Soon</h2>
+                <h3 class="project-sub-title">______</h3>
+                <p class="project-desc">A new project is currently being worked on and will be added here!</p>
+                <div class="buttons">
+                    <a href="#/" class="primary-btn outline external-link">
+                        <span class="preview">!View Project<i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                    <a href="#/" class="primary-btn outline external-link">
+                        <span class="preview">!Source Code<i class="fab fa-github-alt"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End My Projects -->
+  
+    <!-- Contact -->
+    <section id="contact" class="contact" >
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-content" data-aos="fade-right">
+                <div class="column left">
+                    <div class="text">Get in Touch!</div>
+                    <p>I know I'm still new to this field of work but if this portfolio and my projects haven't convinced you of my potential then click away! If not, get in contact with me and let's talk!</p>
+                    <div class="icons">
+                        <!-- <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Gaspar Flores</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form action="https://formsubmit.co/gasparflores107@gmail.com" method="POST">
+                        <input type="hidden" name="_template" value="table">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Full Name" name="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" name="subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                <div class="footer__logo">
+                    <a href="index.html" class="fLogo">
+                        <img src="/imgs/LOGO.png" alt="GF Logo">
+                    </a>
+                </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title"><a href="https://github.com/GasperF" target="_blank"><i class="fab fa-github" id="fab1"></i></i>GitHub</a></h3>
+                </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text__title"><a href="https://www.linkedin.com/in/gasparflores/" target="_blank"><i class="fab fa-linkedin" id="fab1"></i>Linkedin</a></h3>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text__title"><a href="https://www.instagram.com/theartofgaf/" target="_blank"><i class="fab fa-instagram-square" id="fab1"></i>Instagram</a></h3>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text__title"><a href="https://twitter.com/flores_gasper" target="_blank"><i class="fab fa-twitter-square" id="fab1"></i>Twitter</a></h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- My JS -->
+    <script src="main.js"></script>  
+</body>
+ 
+</html>
